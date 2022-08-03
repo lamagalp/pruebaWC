@@ -4,7 +4,7 @@ Prueba de Web Components en Angular
 Usage:
 Import the components:
 
-import '@dile/dile-menu-hamburger/dile-menu-hamburger.js';
+import '../f1-races-results.js';
 
 Componentes:
 
