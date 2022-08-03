@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/f644fad36a.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <script src="./f1-races-results.js" defer></script> 
   <link href="./bootstrap.min.css" rel="stylesheet">
 
 </head>
@@ -35,23 +35,40 @@
 <div class="container-fluid text-center my-4">    
   <div class="row">	
     <div class="col-sm-4">		
-		<championship-f1-results anio="2022" fecha="last"></championship-f1-results>
+		
     </div>	
-    <div class="col-sm-5 text-center"> 
-		<hr>
-		<schedule-f1-results></schedule-f1-results>
-		<!--<div class="col-4 bg-light"><race-f1-results anio="2022" fecha="5"></race-f1-results></div>	-->		
+    <div class="col-sm-5"> 
+		<h2>Components</h2> 
+        <hr>
+            <dl> 
+              <dt class="h4 mt-4">Championship</dt> 
+                <dd>Use example: <span class="text-primary">&lt;championship-f1-results season="2022" round="last"&gt;&lt;/championship-f1-results&gt;</span></dd> 
+                <dd>Properties: <span class="text-primary">season, round</span>  |  Methods:   |   Events:</dd>                 
+              <dt class="h4 mt-4">Schedule</dt> 
+                <dd>Use example:  <span class="text-primary">&lt;schedule-f1-results&gt;&lt;/schedule-f1-results&gt;</span></dd> 
+                <dd>Properties:   |  Methods:   |   Events:</dd>                  
+              <dt class="h4 mt-4">Race results</dt> 
+                <dd>Use example:   <span class="text-primary">&lt;race-f1-results season="2022" round="5"&gt;&lt;/race-f1-results&gt;</span></dd> 
+                <dd>Properties: <span class="text-primary">season, round </span> |  Methods:   |   Events:</dd>         
+              <dt class="h4 mt-4">Last race results</dt> 
+                <dd>Use example:   <span class="text-primary">&lt;last-f1-results&gt;&lt;/last-f1-results&gt;</span></dd> 
+                <dd>Properties:  |  Methods:   |   Events:</dd> 
+              <dt class="h4 mt-4">Qualifying results</dt> 
+                <dd>Use example:  <span class="text-primary">&lt;app-quali-result-f1 season="2022" round="5"&gt;&lt;/app-quali-result-f1&gt;</span></dd> 
+                <dd>Properties: <span class="text-primary">season, round </span> |  Methods:   |   Events:</dd>             
+            </dl>  
+
     </div>
     <div class="col-sm-3">	
-		<last-f1-results></last-f1-results>	
-    </div>
+		
   </div>
 </div>
 
 <footer class="container-fluid text-center">
-	<p>API:  <a href="http://ergast.com/mrd/">http://ergast.com/mrd/</a></p>
-	<p>Tutorial:  <a href="https://www.youtube.com/c/mugan86">Anartz Mugika Ledo - Desarrollo & Formación</a></p>
+	
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
